@@ -1,0 +1,32 @@
+.services-logo{
+    margin: 40px;
+}
+.services-logo img{
+    width: 400px;
+}
+.service-title{
+    background-color: rgb(0, 120, 172);
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.service-order{
+    margin: 50px 100px;
+}
+.service-text{
+    color: #9C9C9C;
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.service-text p br {
+    display: block;
+    content: "";
+    margin-bottom: 10px; 
+  }
+  .common-order{
+    padding-top: 20px;
+  }

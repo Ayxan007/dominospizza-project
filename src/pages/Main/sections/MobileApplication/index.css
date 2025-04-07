@@ -1,0 +1,35 @@
+.text-mb h5{
+    color: #007EB0;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.text-free p{
+    color: #DD2237;
+    font-size: 55px;
+    width: 90%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.text-book p{
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #A4A4A4;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.downloading-advert{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.common{
+    display: flex;
+    margin: 50px 0px 0px 20px;
+}
+.application-text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}

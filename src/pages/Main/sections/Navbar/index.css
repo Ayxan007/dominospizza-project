@@ -1,0 +1,74 @@
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.ul-navbar {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  padding: 13px 0;
+}
+
+.ul-navbar img {
+  width: 45px;
+}
+
+.ul-navbar li {
+  text-align: center;
+  color: #7a7a7a;
+  font-family: sans-serif;
+}
+
+.domino-logo img {
+  width: 55px;
+}
+
+.ul-navbar li a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
+.blink {
+  animation: blinkAnimation 1s infinite alternate;
+}
+
+@keyframes blinkAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.slide {
+  animation: slideAnimation 1s infinite alternate;
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+}
+.scale {
+  animation: scaleAnimation 1s infinite alternate;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}

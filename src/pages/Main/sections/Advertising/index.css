@@ -1,0 +1,69 @@
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.progress-fill {
+  width: 100%;
+  height: 100%;
+  background: red;
+  animation: progressAnimation 8s linear infinite;
+}
+
+.progress-fill.reset {
+  animation: none;
+}
+
+@keyframes progressAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slider-svg {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translateY(-50%);
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.svg-left {
+  left: -60px;
+}
+
+.svg-right {
+  right: -60px;
+}
+
+.slider-container:hover .svg-left {
+  left: 10px;
+  opacity: 1;
+}
+
+.slider-container:hover .svg-right {
+  right: 10px;
+  opacity: 1;
+}

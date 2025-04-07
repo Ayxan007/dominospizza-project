@@ -1,0 +1,59 @@
+.privacy-header{
+    margin: 50px;
+    width: 350px;
+}
+.privacy-policy{
+    margin: 20px 200px;
+}
+.gray-policy{
+    color: #757575;
+    font-size: 17px;
+    word-spacing: 2px;
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+.gray-policy-title{
+    text-transform: uppercase;
+    color: #716B6B;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.consent-policy{
+    padding-top: 20px;
+}
+.consent-ul{
+    list-style: disc;
+    padding: 10px 0px 10px 70px;
+}
+.consent-ul li{
+    color: #757575;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.card-policy{
+    padding-top: 15px;
+}
+.consent-ul a{
+    color: #007AD9;
+    text-decoration: none;
+}
+p a{
+    color: #007AD9;
+    text-decoration: none;
+}
+.information-head{
+    background-color: rgb(0, 120, 172);
+    padding: 5px 8px 5px 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.information-policy{
+    padding-top: 20px;
+}
+.padding-tp{
+    padding-top: 25px;
+}

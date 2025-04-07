@@ -1,0 +1,51 @@
+.follow h5 {
+    color: #007EB0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.order p {
+    color: #dd2237;
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    width: 70%;
+}
+
+.order-text p {
+    color: #A4A4A4;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    letter-spacing: 2px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.follow-btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #D2112C;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid #D2112C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.follow-btn svg {
+    fill: currentColor;
+}
+
+.follow {
+    display: flex;
+    margin: 30px 10px;
+}
+
+.following-text div {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,109 @@
+.login-image{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/img/Login-BG-Image.90f9cf90.png");
+    background-size: cover;
+    background-position: center;
+}
+.textBtn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.textBtn p{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.textBtn a{
+    text-decoration: none;
+}
+.dominos-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dominos-login img{
+    width: 400px;
+}
+.login-head-text{
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.four-login{
+    display: flex;
+    gap: 100px;
+}
+.four-login li img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.four-login li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.four-login li p{
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+.web-login{
+    padding-top: 50px;
+}
+.mobile-feild input{
+    background: transparent;
+    padding: 25px 100px ;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    outline: none; 
+    z-index: 2;
+}
+.mobile-field input:focus {
+    border-color: #fff;
+}   
+.from-text p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.from-text{
+    padding-top: 30px;
+}
+.mobile-feild{
+    padding-top: 50px;
+}
+.login-btn button{
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 18px 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.login-btn{
+    padding-top: 20px;
+}
+.login-term{
+    margin: 20px;
+}
+.login-term{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.underline{
+    text-decoration: underline;
+    cursor: pointer;
+}

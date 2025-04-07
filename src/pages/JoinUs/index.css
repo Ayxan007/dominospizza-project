@@ -1,0 +1,192 @@
+.join-head {
+  margin: 50px;
+}
+.join-forms {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  margin: 50px 100px 0;
+}
+.join-forms div {
+  margin-bottom: 20px;
+}
+.join-input {
+  padding: 15px 120px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  border: 1px solid black;
+  outline: none;
+  font-size: 16px;
+}
+.join {
+  position: relative;
+}
+.join label {
+  position: absolute;
+  left: 10px;
+  transform: translateY(-50%);
+  background: white;
+  padding: 0 5px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.seperate {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 436px;
+}
+.option-join {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 15px;
+  gap: 10px;
+}
+.option-join p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.common-join {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  gap: 10px;
+}
+.opt-scale {
+  transform: scale(1.5);
+}
+.seperate-pd {
+  padding: 30px 151px;
+}
+.language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.language h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+}
+.common-join p {
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.quadrangle input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 15px;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+.quadrangle input[type="radio"]:checked {
+  background-color: blue;
+}
+.join-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.table-head {
+  background-color: #0078ac;
+  color: white;
+  text-align: center;
+  padding: 20px 70px;
+  border-bottom: 2px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.table-body {
+  padding: 20px 30px;
+  text-align: center;
+}
+.table-body input {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin: 10px auto;
+}
+input[type="date"] {
+  font-family: Arial, sans-serif;
+  color: transparent;
+  position: relative;
+}
+input[type="date"]:focus,
+input[type="date"]:valid {
+  color: black;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(18%) sepia(98%) saturate(2106%) hue-rotate(180deg)
+    brightness(90%) contrast(101%);
+  cursor: pointer;
+}
+.add-experience {
+  text-transform: uppercase;
+  color: #0078ac;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.add-work {
+  display: flex;
+  gap: 20px;
+  padding-left: 220px;
+  padding-top: 40px;
+}
+.resume {
+  display: flex;
+  align-items: center;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+    border: 2px solid #0078ac;
+    color: #0078ac;
+    padding: 13px 80px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+.custom-file-upload:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.end-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end-btn button{
+    display: flex;
+    gap: 15px;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: #0078ac;
+    border: 1px solid #0078ac;
+    border-radius: 4px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.end-btn button svg{
+    fill: currentColor;
+}

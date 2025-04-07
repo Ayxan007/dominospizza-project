@@ -1,0 +1,140 @@
+.stores-main{
+    display: flex;
+    gap: 20px;
+}
+.stores-full{
+    margin: 50px 15px;
+}
+.stores-header img{
+    width: 300px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.stores-card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.stores-card-header h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.red-title{
+    color: #D2112C;
+}
+.blue-title{
+    color: #0078AC;
+}
+.stores-comment{
+    display: flex;
+    gap: 20px;
+}
+.assesment p{
+    color: #D2112C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comment p{
+    color: #A4A4A4;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+.open-closes{
+    display: flex;
+    gap: 20px;
+}
+.open img{
+    width: 20px;
+}
+.open{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.open p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.closes img{
+    width: 20px;
+}
+.closes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.closes p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.low-btn{
+    display: flex;
+    gap: 15px;
+}
+.low-btn svg{
+    width: 20px;
+}
+.low-btn button{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.low-btn h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.MuiSvgIcon-root{
+    fill: white;
+}
+.low-shop-btn{
+    background-color: #D2112C;
+    color: #FFFFFF;
+    padding: 7px;
+    border: 1px solid #D2112C;
+    border-radius: 20px;
+}
+.low-drcl-btn{
+    background-color: #0078ac;
+    color: #FFFFFF;
+    padding: 7px;
+    border: 1px solid #0078ac;
+    border-radius: 20px;
+}
+.stores-card{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   margin-bottom: 30px;
+   padding-top: 20px;
+}
+.stores-text p{
+    font-family: sans-serif;
+}
+.search input{
+    width: 100%; 
+    padding-left: 10px; 
+    border: none;
+    outline: none;
+}
+.search svg{
+    fill: #A4A4A4;
+    width: 25px;
+}
+.stores-card-container{
+    width: 100%;
+    height: 700px; 
+    overflow-y: auto; 
+}
+.gray-underline{
+    width: 450px;
+    height: 1px;
+    background-color: gray;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.search input::placeholder{
+    font-size: 17px;
+}

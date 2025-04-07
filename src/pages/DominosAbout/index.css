@@ -1,0 +1,14 @@
+.about-header{
+    padding: 30px 50px;
+}
+.about-header img{
+    width: 300px;
+}
+.about-us img{
+    width: 100%;
+}
+.about-us{
+    background-image: url('../../assets/img/backgorund-about.bdff59da.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

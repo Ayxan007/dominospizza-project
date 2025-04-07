@@ -1,0 +1,70 @@
+.card-title-salad h2 {
+  color: #003752;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+.card-price-salad img {
+  width: 19px;
+}
+.salad-price {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #08789e;
+  margin: 10px;
+}
+.salad-card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 340px;
+  height: 330px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.card-img-salad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pr-salad {
+  width: 200px;
+}
+.card-price-salad {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.startBtnSalad {
+  background-color: #d2112c;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #d2112c;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+.salad {
+  margin: 50px;
+  display: flex;
+  gap: 30px;
+}
+.salad-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.salad-card {
+  transition: transform 0.3s ease-in-out;
+}
+.salad-card:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}

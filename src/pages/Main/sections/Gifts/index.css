@@ -1,0 +1,52 @@
+.gift-text h5 {
+  color: #dd2237;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.gift-shop {
+  color: #007eb0;
+  font-size: 50px;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+.gift-campagin {
+  color: #a4a4a4;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.delivery-btn {
+  background-color: #d2112c;
+  padding: 6px 16px;
+  border: 1px solid #d2112c;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.delivery-btn span {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.delivery-btn svg {
+  width: 30px;
+}
+.gifts {
+  display: flex;
+}
+.gift-text {
+  text-align: right;
+}
+.gift-text h5,
+.gift-text p,
+.gift-text button {
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+.gifts{
+    margin: 15px ;
+}

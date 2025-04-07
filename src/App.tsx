@@ -1,35 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./pages/Main/Main";
+import "./App.css";
+import Pizza from "./pages/Pizza";
+import Chicken from "./pages/Chicken";
+import Bread from "./pages/Bread";
+import Salad from "./pages/Salad";
+import Dips from "./pages/Dips";
+import Desert from "./pages/Desert";
+import Drink from "./pages/Drink";
+import Offer from "./pages/Offers";
+import Stores from "./pages/Stores";
+import Login from "./pages/Login";
+import MainLayout from "./components/MainLayout";
+import DominosAbout from "./pages/DominosAbout";
+import ServiceOrder from "./pages/ServiceOrder";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Suggestions from "./pages/Suggestions";
+import Contact from "./pages/Contact";
+import Join from "./pages/JoinUs";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+      <Route element={<MainLayout/>}>
+       <Route path="/" element={<Main/>}/>
+       <Route path="/pizza" element={<Pizza/>} />
+       <Route path="/bread" element={<Bread/>} />
+       <Route path="/chicken" element={<Chicken/>}/>
+       <Route path="/salad" element={<Salad/>}/>
+       <Route path="/dips" element={<Dips/>}/>
+       <Route path="/desert" element={<Desert/>}/>
+       <Route path="/drink" element={<Drink/>}/>
+       <Route path="/offers" element={<Offer/>}/>
+       <Route path="/dominos-about" element={<DominosAbout/>}/>
+       <Route path="/stores" element={<Stores/>}/>
+       <Route path="/service-order" element={<ServiceOrder/>}/>
+       <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+       <Route path="/suggestions" element={<Suggestions/>}/>
+       <Route path="/contact" element={<Contact/>}/>
+       <Route path="/join-us" element={<Join/>}/>
+       </Route>
+       <Route path="/login" element={<Login/>}/>
+      </Routes>
+      </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

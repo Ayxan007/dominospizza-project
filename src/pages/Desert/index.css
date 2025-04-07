@@ -1,0 +1,83 @@
+.card-title-desert h2 {
+  color: #003752;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+.card-price-desert img {
+  width: 19px;
+}
+.desert-price {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #08789e;
+  margin: 10px;
+}
+.desert-card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 340px;
+  height: 330px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.card-img-desert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pr-desert {
+  width: 200px;
+}
+.card-price-desert {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.startBtnDesert {
+  background-color: #d2112c;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #d2112c;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+.desert {
+  margin: 50px 20px;
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.lv-img-desert {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+}
+.fv-img-desert {
+  position: absolute;
+  top: 53%;
+  right: 20px;
+  width: 45px;
+}
+.desert-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.desert-card {
+  transition: transform 0.3s ease-in-out;
+}
+.desert-card:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}

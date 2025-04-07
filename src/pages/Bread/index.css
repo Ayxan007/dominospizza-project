@@ -1,0 +1,95 @@
+.card-text-bread {
+  color: #d2112c;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.card-title-bread h2 {
+  color: #003752;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+.card-text-bread p {
+  color: #616161;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 90%;
+  margin: 10px;
+}
+.card-price-bread img {
+  width: 19px;
+}
+.bread-price {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #08789e;
+  margin: 10px;
+}
+.lv-img-bread {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+}
+.fv-img-bread {
+  position: absolute;
+  top: 38%;
+  right: 20px;
+  width: 43px;
+}
+.bread-card {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 330px;
+  height: 420px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.card-img-bread {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pr-bread {
+  width: 200px;
+}
+.card-price-bread {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.startBtnBread {
+  background-color: #d2112c;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #d2112c;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+.bread {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.bread-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bread-card {
+  transition: transform 0.3s ease-in-out;
+}
+.bread-card:hover {
+  transform: scale(1.05);
+  z-index: 10;
+}

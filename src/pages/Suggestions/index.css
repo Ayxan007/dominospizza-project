@@ -1,0 +1,67 @@
+.suggestions-head{
+    margin: 50px;
+}
+.suggestions{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    margin: 50px 100px 0;
+}
+.suggestions div{
+    margin-bottom: 20px;
+}
+.inputs-some{
+    padding: 15px 120px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    border: 1px solid black;
+    outline: none;
+    font-size: 16px;
+}
+.inputs-seperate{
+    padding: 15px 120px 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    border: 1px solid black;
+    outline: none;
+    font-size: 16px;
+}
+.forms{
+    position: relative;
+}
+.forms-name{
+    position: absolute;
+    left: 10px;
+    transform: translateY(-50%);
+    background: white;
+    padding: 0 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.send-svg{
+    fill: white;
+    width: 30px;
+}
+.message-send button{
+    display: flex;
+    padding: 10px 15px;
+    background-color: #0078AC;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #0078AC;
+    cursor: pointer;
+    gap: 10px;
+}
+.message-send button span{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.message-send{
+    margin: 10px 95px;
+}
+.work-task{
+    position: relative;
+}
