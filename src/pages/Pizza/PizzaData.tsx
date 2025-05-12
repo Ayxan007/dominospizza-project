@@ -28,47 +28,48 @@ import portofinoPizza from "../../assets/img/08PORCH.jpg";
 import kalipsoPizza from "../../assets/img/_10CCHCL.jpg";
 import halfToHalf from "../../assets/img/02.36083394.png";
 import myCreatePizza from "../../assets/img/pizza=blue.db5c1d9b.png";
-import modalLittleImg from '../../assets/img/small-grey.a943f98a.webp';
-import modalMiddleImg from '../../assets/img/medium.1852d9f7.webp';
-import modalBigImg from '../../assets/img/large-grey.5330ac9c.webp';
+import modalLittleImg from "../../assets/img/small-grey.a943f98a.webp";
+import modalMiddleImg from "../../assets/img/medium.1852d9f7.webp";
+import modalBigImg from "../../assets/img/large-grey.5330ac9c.webp";
 import modalTwiceSlice from "../../assets/img/medium-double-cut-grey.021aceeb.webp";
 import modalFourCorners from "../../assets/img/medium-square-cut-grey.6b3b2911.webp";
-import modalNormalSlice from '../../assets/img/medium-regular-cut.790528a9.webp';
-import modalPremiumImg from '../../assets/img/4meat2.webp'
-import modalDeluxeImg from '../../assets/img/DonerPizza-600x600-final.webp'
-import modalItalianoImg from '../../assets/img/08PIREMX.png'
-import modalAmericanoImg from '../../assets/img/_08AMRCH.png'
-import modalKentSteykImg from '../../assets/img/08CHBBQ.png'
-import modalToyuqImg from '../../assets/img/08PCHCHCK.png'
-import modalFourPizzaImg from '../../assets/img/08PCHFSL.png'
-import modalSupremeImg from '../../assets/img/_08CHBM.png'
-import modalExtravaganzaImg from '../../assets/img/08PIREZZ.png'
-import modalMexicanoImg from '../../assets/img/08PKMEXI.png'
-import modalSteykImg from '../../assets/img/08CHSTEAK.png'
-import modalManqalImg from '../../assets/img/08CHMNGL.png'
-import modalChickenImg from '../../assets/img/ChickenKickresPizza-600x600-final.webp'
-import modalQrilImg from '../../assets/img/_08CHTAVP.png'
-import modalMarqeritaImg from '../../assets/img/08PCHMRGT.png'
-import modalPepperoniImg from '../../assets/img/Pepperoni-new-600x600-min.png'
-import modalSpicyPepperoniImg from '../../assets/img/08CHSPCY.png'
-import modalVegiImg from '../../assets/img/08PIREVX.png'
-import modalFitImg from '../../assets/img/_10CCHDFR.png'
-import modalBolImg from '../../assets/img/_08IHB5.png'
-import modalSosialImg from '../../assets/img/_08CHSYP.png'
-import modalHavaiiImg from '../../assets/img/Havaii-new-600x600-min.png'
-import modalPortofinoImg from '../../assets/img/08PORCH.png'
-import modalKalipsoImg from '../../assets/img/_10CCHCL.png'
-import modalCreateImg from '../../assets/img/make-your-own-pizza.727c6883.png'
-import pastryKlassikImg from '../../assets/img/Classic-Crust.png'
-import pastryThinImg from '../../assets/img/Thin-Crust.png'
-import pastryThinnestImg from '../../assets/img/Thinnest-Crust.png'
-import pastryDuplexImg from '../../assets/img/Duplex-Crust.png'
-import sideMozzarellaImg from '../../assets/img/Mozzarella-Edge.png'
-import sideColbasaImg from '../../assets/img/Sausage-Edge.png'
-import sideParmezanImg from '../../assets/img/Parmesan-Edge.png'
-import sideGarlicImg from '../../assets/img/Garlic-Sauce-Edge.png'
+import modalNormalSlice from "../../assets/img/medium-regular-cut.790528a9.webp";
+import modalPremiumImg from "../../assets/img/4meat2.webp";
+import modalDeluxeImg from "../../assets/img/DonerPizza-600x600-final.webp";
+import modalItalianoImg from "../../assets/img/08PIREMX.png";
+import modalAmericanoImg from "../../assets/img/_08AMRCH.png";
+import modalKentSteykImg from "../../assets/img/08CHBBQ.png";
+import modalToyuqImg from "../../assets/img/08PCHCHCK.png";
+import modalFourPizzaImg from "../../assets/img/08PCHFSL.png";
+import modalSupremeImg from "../../assets/img/_08CHBM.png";
+import modalExtravaganzaImg from "../../assets/img/08PIREZZ.png";
+import modalMexicanoImg from "../../assets/img/08PKMEXI.png";
+import modalSteykImg from "../../assets/img/08CHSTEAK.png";
+import modalManqalImg from "../../assets/img/08CHMNGL.png";
+import modalChickenImg from "../../assets/img/ChickenKickresPizza-600x600-final.webp";
+import modalQrilImg from "../../assets/img/_08CHTAVP.png";
+import modalMarqeritaImg from "../../assets/img/08PCHMRGT.png";
+import modalPepperoniImg from "../../assets/img/Pepperoni-new-600x600-min.png";
+import modalSpicyPepperoniImg from "../../assets/img/08CHSPCY.png";
+import modalVegiImg from "../../assets/img/08PIREVX.png";
+import modalFitImg from "../../assets/img/_10CCHDFR.png";
+import modalBolImg from "../../assets/img/_08IHB5.png";
+import modalSosialImg from "../../assets/img/_08CHSYP.png";
+import modalHavaiiImg from "../../assets/img/Havaii-new-600x600-min.png";
+import modalPortofinoImg from "../../assets/img/08PORCH.png";
+import modalKalipsoImg from "../../assets/img/_10CCHCL.png";
+import modalCreateImg from "../../assets/img/make-your-own-pizza.727c6883.png";
+import pastryKlassikImg from "../../assets/img/Classic-Crust.png";
+import pastryThinImg from "../../assets/img/Thin-Crust.png";
+import pastryThinnestImg from "../../assets/img/Thinnest-Crust.png";
+import pastryDuplexImg from "../../assets/img/Duplex-Crust.png";
+import sideMozzarellaImg from "../../assets/img/Mozzarella-Edge.png";
+import sideColbasaImg from "../../assets/img/Sausage-Edge.png";
+import sideParmezanImg from "../../assets/img/Parmesan-Edge.png";
+import sideGarlicImg from "../../assets/img/Garlic-Sauce-Edge.png";
 
 interface Pizza {
+  id: number;
   pizzaImg: string;
   favoritesImg?: string;
   popularImg?: string;
@@ -84,14 +85,14 @@ interface Pizza {
   side: Side[];
 }
 
-interface Side{
+interface Side {
   sideTitle: string;
   sideImg: string;
 }
 
-interface Pastry{
-  pastryTitle: string,
-  pastryImg: string,
+interface Pastry {
+  pastryTitle: string;
+  pastryImg: string;
 }
 
 interface SizeSlice {
@@ -111,6 +112,7 @@ interface PizzaData {
 const pizzaData: PizzaData = {
   premium: [
     {
+      id: 1,
       pizzaImg: premiumPizza,
       favoritesImg: favoritesLogo,
       popularImg: popularLogo,
@@ -131,22 +133,29 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar) +4.00 azn" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        {
+          pastryTitle: "İkiqat xəmir(Çeddar) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
       ],
       side: [
-        {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-        {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-        {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-        {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-      ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
   ],
   special: [
     {
+      id: 2,
       pizzaImg: deluxePizza,
       favoritesImg: favoritesLogo,
       popularImg: popularLogo,
@@ -167,20 +176,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-        {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-        {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-        {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-        {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-      ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 3,
       pizzaImg: italianoPizza,
       favoritesImg: favoritesLogo,
       title: "ITALIANO",
@@ -200,20 +213,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
-       side: [
-        {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-        {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-        {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-        {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-      ]
+      side: [
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 4,
       pizzaImg: americanoPizza,
       favoritesImg: favoritesLogo,
       modalPizzaImg: modalAmericanoImg,
@@ -233,23 +250,27 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 5,
       pizzaImg: kentuckySteykPizza,
       favoritesImg: favoritesLogo,
-      modalPizzaImg: modalKentSteykImg, 
+      modalPizzaImg: modalKentSteykImg,
       title: "KENTUCKY BBQ STEYK",
       text: "Steyk, Közlənmiş Bibər, Yaşıl Bibər, BBQ Sous, Soğan, Pizza sousu, Mozzarella pendiri",
       price: "12.40",
@@ -266,20 +287,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 6,
       pizzaImg: kentuckyToyuqPizza,
       favoritesImg: favoritesLogo,
       title: "KENTUCKY BBQ TOYUQ",
@@ -299,20 +324,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 7,
       pizzaImg: fourPendirliPizza,
       favoritesImg: favoritesLogo,
       title: "4 PENDIRLI",
@@ -332,20 +361,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 8,
       pizzaImg: supremePizza,
       favoritesImg: favoritesLogo,
       title: "SUPREME",
@@ -365,20 +398,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 9,
       pizzaImg: extravaganzaPizza,
       favoritesImg: favoritesLogo,
       title: "EXTRAVAGANZA",
@@ -398,26 +435,30 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 10,
       pizzaImg: mexicanoPizza,
       favoritesImg: favoritesLogo,
       title: "MEXICANO",
       text: "Hisə verilmiş Toyuq, Kub Sucuk, Yaşıl Bibər, Qarğıdalı, Pomidor, Pul Bibər, Jalapeno Bibər, Pizza Sousu, Mozzarella Pendiri",
       price: "12.40",
-      azeManatLogo: manatLogo,  
+      azeManatLogo: manatLogo,
       modalPizzaImg: modalMexicanoImg,
       startTitle: "-dan başlıyaraq",
       sizes: [
@@ -431,20 +472,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 11,
       pizzaImg: steykPizza,
       favoritesImg: favoritesLogo,
       title: "STEYK",
@@ -464,20 +509,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 12,
       pizzaImg: sucukPizza,
       favoritesImg: favoritesLogo,
       title: "MANQAL SUCUK",
@@ -497,22 +546,26 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
   ],
   favorit: [
     {
+      id: 13,
       pizzaImg: cikenPizza,
       favoritesImg: favoritesLogo,
       modalPizzaImg: modalChickenImg,
@@ -532,20 +585,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 14,
       pizzaImg: qrilToyuqPizza,
       favoritesImg: favoritesLogo,
       title: "QRIL TOYUQ",
@@ -565,20 +622,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 15,
       pizzaImg: marqeritaPizza,
       favoritesImg: favoritesLogo,
       popularImg: popularAdded,
@@ -599,20 +660,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 16,
       pizzaImg: pepperoniPizza,
       modalPizzaImg: modalPepperoniImg,
       favoritesImg: favoritesLogo,
@@ -633,20 +698,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 17,
       pizzaImg: aciliPeppePizza,
       modalPizzaImg: modalSpicyPepperoniImg,
       favoritesImg: favoritesLogo,
@@ -666,20 +735,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 18,
       pizzaImg: vegiPizza,
       modalPizzaImg: modalVegiImg,
       favoritesImg: favoritesLogo,
@@ -699,20 +772,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 19,
       pizzaImg: twoPizza,
       modalPizzaImg: modalFitImg,
       favoritesImg: favoritesLogo,
@@ -732,20 +809,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 20,
       pizzaImg: bolPizza,
       favoritesImg: favoritesLogo,
       modalPizzaImg: modalBolImg,
@@ -765,26 +846,30 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 21,
       pizzaImg: sosialPizza,
       favoritesImg: favoritesLogo,
       title: "SOSIAL",
       text: "Dilim Sucuk, Göbələk, Qarğıdalı, Pomidor, Kəklikotu, Pizza Sousu, Mozzarella Pendiri",
-      price: "10.40", 
-       modalPizzaImg: modalSosialImg,
+      price: "10.40",
+      modalPizzaImg: modalSosialImg,
       azeManatLogo: manatLogo,
       startTitle: "-dan başlıyaraq",
       sizes: [
@@ -798,20 +883,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 22,
       pizzaImg: hawaiianPizza,
       favoritesImg: favoritesLogo,
       title: "HAWAIIAN",
@@ -831,20 +920,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 23,
       pizzaImg: portofinoPizza,
       favoritesImg: favoritesLogo,
       title: "PORTOFINO",
@@ -864,20 +957,24 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
     {
+      id: 24,
       pizzaImg: kalipsoPizza,
       favoritesImg: favoritesLogo,
       title: "KALIPSO",
@@ -897,22 +994,26 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
   ],
   halfToHalf: [
     {
+      id: 25,
       pizzaImg: halfToHalf,
       title: "YARI-YARIYA",
       text: "Seçə bilmirsiz? Onda bir pizzada iki ləzzət…",
@@ -931,22 +1032,26 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
   ],
   createPizza: [
     {
+      id: 26,
       pizzaImg: myCreatePizza,
       title: "ÖZ PİZZANI YARAT",
       text: "Mozzarella Pendiri, Pizza Sousu",
@@ -965,18 +1070,21 @@ const pizzaData: PizzaData = {
         { name: "4 qat kəsim", img: modalFourCorners, value: "16 dilim" },
       ],
       pastry: [
-        {pastryTitle: "Klassik xəmir" ,pastryImg: pastryKlassikImg},
-        {pastryTitle: "İncə xəmir" ,pastryImg: pastryThinImg},
-        {pastryTitle: "İncəcik xəmir" ,pastryImg: pastryThinnestImg},
-        {pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn" ,pastryImg: pastryDuplexImg},
-        {pastryTitle: "İkiqat xəmir(Çeddar)" ,pastryImg: pastryDuplexImg},
+        { pastryTitle: "Klassik xəmir", pastryImg: pastryKlassikImg },
+        { pastryTitle: "İncə xəmir", pastryImg: pastryThinImg },
+        { pastryTitle: "İncəcik xəmir", pastryImg: pastryThinnestImg },
+        {
+          pastryTitle: "İkiqat xəmir(Mozzarella) +4.00 azn",
+          pastryImg: pastryDuplexImg,
+        },
+        { pastryTitle: "İkiqat xəmir(Çeddar)", pastryImg: pastryDuplexImg },
       ],
       side: [
-       {sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg,},
-       {sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg},
-       {sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg},
-       {sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg},
-     ]
+        { sideTitle: "Mozzarella Kənar +3.5", sideImg: sideMozzarellaImg },
+        { sideTitle: "Kolbasa Kənar +3.5", sideImg: sideColbasaImg },
+        { sideTitle: "Parmezan Kənar +2.5", sideImg: sideParmezanImg },
+        { sideTitle: "Sarımsaq Souslu Kənar +2.5", sideImg: sideGarlicImg },
+      ],
     },
   ],
 };

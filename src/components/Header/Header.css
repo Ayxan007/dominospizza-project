@@ -24,3 +24,24 @@
 .navbar-about a{
     text-decoration: none;
 }
+.cart-count {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;    position: absolute;
+    top: 7px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}

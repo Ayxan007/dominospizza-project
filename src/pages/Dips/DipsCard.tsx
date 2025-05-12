@@ -21,7 +21,7 @@ interface DipsCardProps {
           <div className="dips-price">
             {price} <img src={azeManatLogo} alt="AZN" />
           </div>
-          <div className="btn">
+          <div className="btn-dips">
           <button className="startBtnDips">{startBtn}</button>
           </div>
         </div>

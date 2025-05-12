@@ -31,7 +31,7 @@ interface PizzaCategoryProps {
             price={pizza.price}
             azeManatLogo={pizza.azeManatLogo}
             startTitle={pizza.startTitle}
-            onClick={() => onCardClick && onCardClick(pizza)} // ✅ Burda var
+            onClick={() => onCardClick && onCardClick(pizza)} 
           />
         ))}
       </div>

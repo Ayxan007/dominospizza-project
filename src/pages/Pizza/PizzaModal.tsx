@@ -1,14 +1,18 @@
-import { useState } from "react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useState, useEffect } from "react";
 import modalAznLogo from "../../assets/img/download (34).png";
 import blueAznlogo from "../../assets/img/download (35).png";
 import confirmed from "../../assets/img/download (36).png";
 import unconfirmed from "../../assets/img/download (37).png";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../Pizza/cartSlice";
 import Modal from "./littleChooseModal";
 
 interface SizeSlice {
   name: string;
   img: string;
-  value: number | string; 
+  value: number | string;
 }
 
 interface PizzaModalProps {
@@ -32,7 +36,7 @@ const PizzaModal = ({
   isModalOpen,
   closeModal,
 }: PizzaModalProps) => {
-  if (!isModalOpen || !selectedPizza) return null;
+  const dispatch = useDispatch();
 
   const [quantity, setQuantity] = useState<number>(1);
   const [selectedSide, setSelectedSide] = useState<string | null>(null);
@@ -41,12 +45,24 @@ const PizzaModal = ({
   const [selectedIngredients, setSelectedIngredients] = useState<{
     [key: string]: string;
   }>({});
-  const [selectedSize, setSelectedSize] = useState<SizeSlice>(
-    selectedPizza.sizes?.[0] || { name: "", img: "", value: "" }
-  );
+  const [selectedSize, setSelectedSize] = useState<SizeSlice | null>(null);
   const [selectedPastry, setSelectedPastry] = useState<string>("Klassik xəmir");
 
-  const sizePrice = parseFloat(selectedSize.value.toString());
+  useEffect(() => {
+    if (selectedPizza?.sizes?.length) {
+      const ortaSize = selectedPizza.sizes.find((size: SizeSlice) =>
+        size.name.toLowerCase().includes("orta")
+      );
+      setSelectedSize(ortaSize || selectedPizza.sizes[0]);
+    }
+  }, [selectedPizza]);
+
+  if (!isModalOpen || !selectedPizza || !selectedSize) return null;
+
+  const sizePrice = !isNaN(parseFloat(String(selectedSize?.value)))
+    ? parseFloat(String(selectedSize?.value))
+    : 0;
+
   const pastryPrice = selectedPastry.includes("İkiqat xəmir") ? 4 : 0;
 
   const sidePrices: { [key: string]: number } = {
@@ -56,9 +72,10 @@ const PizzaModal = ({
     "Sarımsaq Souslu Kənar +2.5": 2.5,
   };
 
-  const selectedSidePrice = selectedPastry === "Klassik xəmir" && selectedSide
-    ? sidePrices[selectedSide]
-    : 0;
+  const selectedSidePrice =
+    selectedPastry === "Klassik xəmir" && selectedSide
+      ? sidePrices[selectedSide]
+      : 0;
 
   const toppingPrice = Object.values(selectedIngredients).reduce(
     (acc, value) => {
@@ -69,17 +86,11 @@ const PizzaModal = ({
     0
   );
 
-  const adjustedPrice = sizePrice + pastryPrice + toppingPrice + selectedSidePrice;
+  const adjustedPrice =
+    sizePrice + pastryPrice + toppingPrice + selectedSidePrice;
 
-  const increaseQuantity = () => {
-    setQuantity(quantity + 1);
-  };
-
-  const decreaseQuantity = () => {
-    if (quantity > 1) {
-      setQuantity(quantity - 1);
-    }
-  };
+  const increaseQuantity = () => setQuantity(quantity + 1);
+  const decreaseQuantity = () => quantity > 1 && setQuantity(quantity - 1);
 
   const openModal = (ingredient: string) => {
     setSelectedIngredient(ingredient);
@@ -88,6 +99,26 @@ const PizzaModal = ({
 
   const handleIngredientSelect = (ingredient: string, size: string) => {
     setSelectedIngredients((prev) => ({ ...prev, [ingredient]: size }));
+  };
+
+  const handleAddToCart = () => {
+    const productToAdd = {
+      id: selectedPizza.id,
+      title: selectedPizza.title,
+      size: selectedSize.name,
+      pastry: selectedPastry,
+      side: selectedSide,
+      ingredients: selectedIngredients,
+      quantity,
+      unitPrice: adjustedPrice,
+      price: adjustedPrice,
+      totalPrice: adjustedPrice * quantity,
+      image: selectedPizza.modalPizzaImg,
+    };
+
+    dispatch(addToCart(productToAdd));
+    toast.success("Səbətə əlavə olundu!", { position: "top-center" });
+    closeModal();
   };
 
   return (
@@ -108,26 +139,25 @@ const PizzaModal = ({
             <div className="modal-text">
               <p>{selectedPizza.text}</p>
             </div>
+
             <div className="bottom-flex">
               <div className="number-btn">
                 <button className="red-math" onClick={decreaseQuantity}>
-                  <span>-</span>
+                  -
                 </button>
-                <button className="value">
-                  <span>{quantity}</span>
-                </button>
+                <button className="value">{quantity}</button>
                 <button className="red-math" onClick={increaseQuantity}>
-                  <span>+</span>
+                  +
                 </button>
               </div>
               <div className="modal-price">
                 <span>
                   {(adjustedPrice * quantity).toFixed(2)}{" "}
-                  <img src={blueAznlogo} alt="currency" />
+                  <img src={blueAznlogo} />
                 </span>
               </div>
               <div className="modal-basket-add">
-                <button>SƏBƏTƏ ƏLAVƏ ET</button>
+                <button onClick={handleAddToCart}>SƏBƏTƏ ƏLAVƏ ET</button>
               </div>
             </div>
             <div className="size-title">
@@ -137,7 +167,9 @@ const PizzaModal = ({
               {selectedPizza.sizes?.map((size: SizeSlice) => (
                 <div
                   key={size.name}
-                  className={`size-option ${selectedSize.name === size.name ? "selected" : ""}`}
+                  className={`size-option ${
+                    selectedSize?.name === size.name ? "selected" : ""
+                  }`}
                   onClick={() => setSelectedSize(size)}
                 >
                   <div className="size-img">
@@ -159,7 +191,9 @@ const PizzaModal = ({
               {selectedPizza.pastry?.map((option: Pastry, index: number) => (
                 <div
                   key={index}
-                  className={`pastry-option ${selectedPastry === option.pastryTitle ? "selected" : ""}`}
+                  className={`pastry-option ${
+                    selectedPastry === option.pastryTitle ? "selected" : ""
+                  }`}
                   onClick={() => setSelectedPastry(option.pastryTitle)}
                 >
                   <div className="pastry-text">
@@ -180,7 +214,9 @@ const PizzaModal = ({
                   {selectedPizza.side.map((option: Side, index: number) => (
                     <div
                       key={index}
-                      className={`side-option ${selectedSide === option.sideTitle ? "selected" : ""}`}
+                      className={`side-option ${
+                        selectedSide === option.sideTitle ? "selected" : ""
+                      }`}
                       onClick={() => setSelectedSide(option.sideTitle)}
                     >
                       <div className="side-img">
@@ -197,16 +233,24 @@ const PizzaModal = ({
                 <p>Standard İnqridientlər</p>
               </div>
               <div className="modal-chooses">
-                {["Steak", "Meatballs", "Pastrami", "Mozzarella Cheese", "Pepperoni", "Pizza Sauce"]
-                  .map((ingredient) => (
-                    <div
-                      key={ingredient}
-                      className="chooses"
-                      onClick={() => openModal(ingredient)}
-                    >
-                      <img src={confirmed} />
-                      <p>{ingredient} {selectedIngredients[ingredient]}</p>
-                    </div>
+                {[
+                  "Steak",
+                  "Meatballs",
+                  "Pastrami",
+                  "Mozzarella Cheese",
+                  "Pepperoni",
+                  "Pizza Sauce",
+                ].map((ingredient) => (
+                  <div
+                    key={ingredient}
+                    className="chooses"
+                    onClick={() => openModal(ingredient)}
+                  >
+                    <img src={confirmed} />
+                    <p>
+                      {ingredient} {selectedIngredients[ingredient]}
+                    </p>
+                  </div>
                 ))}
               </div>
             </div>
@@ -215,34 +259,66 @@ const PizzaModal = ({
                 <p>Əlavə inqridientlər</p>
               </div>
               <div className="modal-chooses">
-                {["Çeddar Pendiri", "Parmesan Pendiri", "Feta Pendiri", "Sosiska", "Kub Sucuk", "Dilim Sucuk", 
-                  "Manqal Sucuk", "Mal Əti Vetçinasi", "Hisə verilmiş Toyuq", "Dana Dönər Əti", "Ton Balığı", 
-                  "Toyuq Dilimləri", "Mayonez", "BBQ Sous", "Közlənmiş Bibər", "Pul Bibər", "Jalapeno Bibər", 
-                  "Yaşıl Bibər", "Göbələk", "Qara Zeytun", "Qarğıdalı", "Pomidor", "Ananas", "Soğan", "Küncüt", 
-                  "Kəklikotu"]
-                  .map((ingredient) => (
-                    <div
-                      key={ingredient}
-                      className="chooses"
-                      onClick={() => openModal(ingredient)}
-                    >
-                      <img src={selectedIngredients[ingredient] ? confirmed : unconfirmed} />
-                      <p>{ingredient} {selectedIngredients[ingredient] && `(${selectedIngredients[ingredient]})`}</p>
-                    </div>
+                {[
+                  "Çeddar Pendiri",
+                  "Parmesan Pendiri",
+                  "Feta Pendiri",
+                  "Sosiska",
+                  "Kub Sucuk",
+                  "Dilim Sucuk",
+                  "Manqal Sucuk",
+                  "Mal Əti Vetçinasi",
+                  "Hisə verilmiş Toyuq",
+                  "Dana Dönər Əti",
+                  "Ton Balığı",
+                  "Toyuq Dilimləri",
+                  "Mayonez",
+                  "BBQ Sous",
+                  "Közlənmiş Bibər",
+                  "Pul Bibər",
+                  "Jalapeno Bibər",
+                  "Yaşıl Bibər",
+                  "Göbələk",
+                  "Qara Zeytun",
+                  "Qarğıdalı",
+                  "Pomidor",
+                  "Ananas",
+                  "Soğan",
+                  "Küncüt",
+                  "Kəklikotu",
+                ].map((ingredient) => (
+                  <div
+                    key={ingredient}
+                    className="chooses"
+                    onClick={() => openModal(ingredient)}
+                  >
+                    <img
+                      src={
+                        selectedIngredients[ingredient]
+                          ? confirmed
+                          : unconfirmed
+                      }
+                    />
+                    <p>
+                      {ingredient}{" "}
+                      {selectedIngredients[ingredient] &&
+                        `(${selectedIngredients[ingredient]})`}
+                    </p>
+                  </div>
                 ))}
               </div>
             </div>
           </div>
         </div>
-        <Modal
-          isOpen={modalOpen}
-          onClose={() => setModalOpen(false)}
-          ingredient={selectedIngredient}
-          onSelect={handleIngredientSelect}
-        />                                                                                                                                                                                                                               
       </div>
+      <Modal
+        isOpen={modalOpen}
+        onClose={() => setModalOpen(false)}
+        ingredient={selectedIngredient}
+        onSelect={handleIngredientSelect}
+      />
     </>
   );
 };
 
-export default PizzaModal; 
+export default PizzaModal;

@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Main from "./pages/Main/Main";
 import "./App.css";
 import Pizza from "./pages/Pizza";
@@ -18,10 +20,12 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Suggestions from "./pages/Suggestions";
 import Contact from "./pages/Contact";
 import Join from "./pages/JoinUs";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
     <BrowserRouter>
+      <ToastContainer position="top-center" />
       <Routes>
       <Route element={<MainLayout/>}>
        <Route path="/" element={<Main/>}/>
@@ -40,6 +44,7 @@ function App() {
        <Route path="/suggestions" element={<Suggestions/>}/>
        <Route path="/contact" element={<Contact/>}/>
        <Route path="/join-us" element={<Join/>}/>
+       <Route path="/my-cart" element={<Cart/>}/>
        </Route>
        <Route path="/login" element={<Login/>}/>
       </Routes>
